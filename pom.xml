@@ -11,7 +11,7 @@
 
     <groupId>org.github.paperspigot</groupId>
     <artifactId>paperspigot-parent</artifactId>
-    <version>dev-SNAPSHOT</version>
+    <version>1.8.8</version>
     <packaging>pom</packaging>
 
     <name>PaperSpigot-Parent</name>
@@ -36,12 +36,12 @@
 
     <distributionManagement>
         <repository>
-            <id>destroystokyo-releases</id>
-            <url>https://repo.destroystokyo.com/content/repositories/releases/</url>
+            <id>splashmc-releases</id>
+            <url>https://maven.splashmc.tech/repository/splashmc-release/</url>
         </repository>
         <snapshotRepository>
-            <id>destroystokyo-snapshots</id>
-            <url>https://repo.destroystokyo.com/content/repositories/snapshots/</url>
+            <id>splashmc-snapshots</id>
+            <url>https://maven.splashmc.tech/repository/splashmc-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
